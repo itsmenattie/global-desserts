@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Desserts</title>
+  <link rel="stylesheet" href="style_explore.css">
+  <link rel="stylesheet" href="style_navbar.css">
+  <script src="js_navbar.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+</head>
+
+<body>
+  <header id="main-header">
+    <a href="explore.html">
+      <img src="img/title.webp" class="logo">
+    </a>
+    <section class="buttons">
+      <div class="cuisines_button">
+        <a href="cuisines.html">Cuisines</a>
+      </div>
+      <div class="aboutUs_button">
+        <a href="aboutUs.html">About Us</a>
+      </div>
+    </section>
+    <div class="searchBar">
+      <input type="search" placeholder="Search here..." id="search">
+      <span class="las la-search"></span>
+    </div>
+  </header>
+
+  <div class="content">
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <a href="#">
+          <img src="img/pie.webp" style="width:100%" alt="Pie">
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="recipe_cookies.html">
+          <img src="img/cookies.webp" style="width:100%" alt="Cookies">
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="#">
+          <img src="img/muffin.webp" style="width:100%" alt="Muffins">
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="#">
+          <img src="img/macaroon.webp" style="width:100%" alt="Macaroons">
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="#">
+          <img src="img/brownie.webp" style="width:100%" alt="Brownies">
+        </a>
+      </div>
+
+      <i class="las la-arrow-left" onclick="plusSlides(-1)"></i>
+      <i class="las la-arrow-right" onclick="plusSlides(1)"></i>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+      <span class="dot" onclick="currentSlide(5)"></span>
+    </div>
+  </div>
+
+  <div class="explore">
+    <div class="title">
+      <h1>Explore Recipes</h1>
+      <hr>
+    </div>
+
+    <section class="recipes">
+
+      <div class="card-row">
+
+        <a href="recipe_brownies.html">
+
+          <div class="card">
+
+            <div class="card-image">
+              <img src="img/brownie.webp" alt="Brownies">
+            </div>
+
+            <div class="card-content">
+              <h3>AMERICAN</h3>
+              <h2>Brownies</h2>
+
+              <div class="tags">
+                <p>Preparing time: 1 hour</p>
+                <p>Difficulty: ★☆☆</p>
+                <p>Servings: 16</p>
+              </div>
+            </div>
+
+          </div>
+
+        </a>
+
+        <a href="recipe_cookies.html">
+
+          <div class="card">
+
+            <div class="card-image">
+              <img src="img/cookies.webp" alt="Cookies">
+            </div>
+            <div class="card-content">
+              <h3>AMERICAN</h3>
+              <h2>Cookies</h2>
+              <div class="tags">
+                <p>Preparing time: 45 minutes</p>
+                <p>Difficulty: ★☆☆</p>
+                <p>Servings: 24</p>
+              </div>
+            </div>
+
+          </div>
+        </a>
+
+      </div>
+      <div class="card-row">
+
+        <a href="recipe_tiramisu.html">
+
+          <div class="card">
+
+            <div class="card-image">
+              <img src="img/tiramisu.webp" alt="Tiramisu">
+            </div>
+            <div class="card-content">
+              <h3>ITALIAN</h3>
+              <h2>Tiramisu</h2>
+              <div class="tags">
+                <p>Preparing time: 20 minutes</p>
+                <p>Difficulty: ★★☆</p>
+                <p>Servings: 8</p>
+              </div>
+            </div>
+
+          </div>
+
+        </a>
+
+        <a href="recipe_brigadeiro.html">
+
+          <div class="card">
+
+            <div class="card-image">
+              <img src="img/brigadeiro.webp" alt="Brigadeiro">
+            </div>
+            <div class="card-content">
+              <h3>BRAZILIAN</h3>
+              <h2>Brigadeiro</h2>
+              <div class="tags">
+                <p>Preparing time: 20 minutes</p>
+                <p>Difficulty: ★☆☆</p>
+                <p>Servings: 20</p>
+              </div>
+            </div>
+
+          </div>
+
+        </a>
+
+      </div>
+
+    </section>
+
+    <div class="footer">
+      <hr>
+      <a href="attributions.html">
+        <p>Attributions</p>
+      </a>
+    </div>
+
+  </div>
+
+  <script src="js_carousel.js"></script>
+
+</body>
+
+</html>

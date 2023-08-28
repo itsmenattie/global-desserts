@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+* {
+  font-family: "Outfit", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.content {
+  margin: 50px auto;
+  max-width: 80%;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 400;
+  text-align: left;
+}
+
+h2 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 25px;
+  text-align: justify;
+}
+
+.summary {
+  display: flex;
+  align-content: center;
+}
+
+.image img {
+  object-fit: cover;
+  height: 40vh;
+  width: 65vh;
+  border-radius: 10px;
+}
+
+.title {
+  width: fit-content;
+}
+
+.information, .image {
+  padding: 0 50px;
+}
+
+.information hr {
+  border: 3.5px solid #ffcccc;
+  margin: 5px 0 20px;
+}
+
+.tags {
+  margin: 5px 0 20px;
+  max-width: fit-content;
+}
+
+.tags p {
+  display: inline-block;
+  font-size: 18px;
+  margin: 5px 10px 5px 0;
+  padding: 5px 15px;
+  border-radius: 50px;
+  background: #ffcccc;
+  box-shadow: 0 2px 4px 0 hsla(0, 0%, 0%, 0.15);
+}
+
+#middle {
+  max-width: 94%;
+  margin: 80px auto 50px;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+}
+
+.recipe {
+  display: flex;
+  justify-content: center;
+}
+
+.ingredients,
+.instructions {
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  margin: 50px;
+  padding: 50px 60px;
+  height: 100%;
+}
+
+li {
+  margin: 20px;
+  font-size: 20px;
+}
+
+.ingredients hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  width: 500px;
+}
+
+.instructions hr {
+  border: none;
+  border-top: 1px solid #e0e0e0;
+  width: 600px;
+}
+
+.footer {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.footer hr {
+  border: 1px solid #e0e0e0;
+  border-bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  font-size: 25px;
+  margin: 40px auto 40px;
+  text-align: center;
+  color:  #797979;
+  text-decoration: underline;
+}
